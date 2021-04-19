@@ -73,6 +73,12 @@ def staa():
     return textt
 
 
+def sta():
+         r = requests.get(f"https://corona.lmao.ninja/v2/countries/{variabla}").json()
+         reply_text = f"**රට {r['country']} 🦠**\n🤒 තහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = {r['cases']:,}\n😷 නව රෝගීන් සංඛ්‍යාව = {r['todayCases']:,}\n⚰ මරණ සංඛ්‍යාව = {r['deaths']:,}\n⚰ නව මරණ සංඛ්‍යාව = {r['todayDeaths']:,}\n🙂 සුවය ලැබූ සංඛ්‍යාව =  {r['recovered']}"
+         message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
+
+
 
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
@@ -83,6 +89,11 @@ async def start(event):
 @bot.on(events.NewMessage(pattern='/corona'))
 async def corona(event):
     await event.respond(staa(),parse_mode='html')
+    raise events.StopPropagation
+
+@bot.on(events.NewMessage(pattern='/corona '))
+async def corona(event):
+    await event.respond(sta(),parse_mode='html')
     raise events.StopPropagation
 
 @bot.on(events.NewMessage(pattern='/help'))
