@@ -1,8 +1,10 @@
-# telegram Corona update bot
+# Telegram Corona Update Bot 🦠
 
-A Simple Bot to get CoronaVirus updates via Telegram platform.
+##A Simple Bot to get Corona Virus updates via Telegram platform.
 
-Simply Replace the Token,APP_ID,APP_HASH and run(get token from @botfather others on my.telegram.org)
+###Installation
+
+*  Fo
 
 you can also use on supergroup chats and private chats.
 
