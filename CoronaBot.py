@@ -91,9 +91,9 @@ async def corona(event):
     await event.respond(staa(),parse_mode='html')
     raise events.StopPropagation
 
-@bot.on(events.NewMessage(pattern='/corona '))
+@bot.on(events.NewMessage(pattern='/corona {variabla}'))
 async def corona(event):
-    await event.respond(sta(),parse_mode='html')
+    await event.respond(sta(),parse_mode='MARKDOWN')
     raise events.StopPropagation
 
 @bot.on(events.NewMessage(pattern='/help'))
