@@ -13,7 +13,7 @@ def staat(qq):
   data = {
     "chat_id": str(qq),
     "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක." /n "වැඩි විස්තර සදහා /help භාවිතා කරන්න" /n  "~ @Uvindu_Bro ",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක." <br> "වැඩි විස්තර සදහා /help භාවිතා කරන්න" <br> "~ @Uvindu_Bro ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
