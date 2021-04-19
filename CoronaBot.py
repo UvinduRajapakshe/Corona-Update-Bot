@@ -13,14 +13,18 @@ def staat(qq):
   data = {
     "chat_id": str(qq),
     "photo": "https://img.imageupload.net/2020/10/14/photo_2020-10-14_23-08-10.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @coronasrilankabot  Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක. ",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක. ~ @Uvindu_Bro ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
             [
                 {
-                    "text": "Add me to your Group",
-                    "url": "https://t.me/coronasrilankabot?startgroup=new"
+                    "text": "➕ Add me to your Group",
+                    "url": "https://t.me/SLCovid19Bot?startgroup=new"
+                }, 
+                {
+                    "text": "🔊 Channel",
+                    "url": "https://t.me/UvinduBro"
                 }
             ]
         ]
@@ -44,8 +48,7 @@ def staa():
     global_new_deaths   = str(jsondata['data']['global_deaths'])
     global_recovered    = str(jsondata['data']['global_recovered'])
 
-    textt = str(
-                    '<b>CURRENT SITUATION</b>' + '\n' + '\n' + '<u>' +
+    textt = str(   '<b>CURRENT SITUATION</b>' + '\n' + '\n' + '<u>' +
                     update_date_time + ' වන විට</u>' + '\n' + '\n' +
                     '<u>ශ්‍රී ලංකාවේ තත්ත්වය</u>' + '\n' + '\n' +
                     'තහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = ' +
