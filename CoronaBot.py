@@ -34,7 +34,8 @@ def staat(qq):
   r = requests.post(url, data=json.dumps(data), headers=headers)
 
 def staa():
-    jsondata = requests.get('https://hpb.health.gov.lk/api/get-current-statistical').json
+    r = requests.get('https://hpb.health.gov.lk/api/get-current-statistical')
+    jsondata = json.loads(r.text)
     update_date_time    = str(jsondata['data']['update_date_time'])
     local_new_cases     = str(jsondata['data']['local_new_cases'])
     local_active_cases  = str(jsondata['data']['local_active_cases'])
@@ -48,7 +49,8 @@ def staa():
     global_new_deaths   = str(jsondata['data']['global_deaths'])
     global_recovered    = str(jsondata['data']['global_recovered'])
 
-    textt = str(   '<b>CURRENT SITUATION</b>' + '\n' + '\n' + '<u>' +
+    textt = str(
+                    '<b>CURRENT SITUATION</b>' + '\n' + '\n' + '<u>' +
                     update_date_time + ' වන විට</u>' + '\n' + '\n' +
                     '<u>ශ්‍රී ලංකාවේ තත්ත්වය</u>' + '\n' + '\n' +
                     'තහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = ' +
