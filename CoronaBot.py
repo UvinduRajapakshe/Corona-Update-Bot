@@ -12,8 +12,8 @@ def staat(qq):
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
-    "photo": "https://img.imageupload.net/2020/10/14/photo_2020-10-14_23-08-10.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක. ~ @Uvindu_Bro ",
+    "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක." /n "වැඩි විස්තර සදහා /help භාවිතා කරන්න" /n  "~ @Uvindu_Bro ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
@@ -87,7 +87,7 @@ async def corona(event):
 
 @bot.on(events.NewMessage(pattern='/help'))
 async def help(event):
-    await event.respond('use /corona command to view latest corona news')
+    await event.respond('නවතම කොරෝනා ප්‍රවෘත්ති බැලීමට /corona command භාවිතා කරන්න')
     raise events.StopPropagation
 
 def main():
