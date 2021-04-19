@@ -4,7 +4,13 @@
 
 ### Installation
 
-*  Fo
+* Fork this Repo.😎
+
+* The Go to the CoronaBot.py & Edit these 👇
+                       ```APP_ID``` , ```APP_HASH``` , ```BOTT```
+                       
+* After that click the Heroku Deploy Button & Deploy it 😋
+
 
 you can also use on supergroup chats and private chats.
 
