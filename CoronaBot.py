@@ -11,11 +11,9 @@ bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
 
 def staat(qq):
-  requests.get('api.telegram.org/bot'+BOTT+'/sendSticker?chat_id='+str(qq)+'&sticker='+stic)
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
-    "stic"='CAACAgIAAxkBAAIRamB_lnSZ-12BawIiPbtcysJPjHzKAALOAQACVp29Cq2jmuzmnvpMHwQ'
     "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
     "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @Uvindu_Bro 🇱🇰 | @charindith ",
     "parse_mode": "HTML",
