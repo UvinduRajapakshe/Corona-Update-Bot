@@ -18,16 +18,16 @@
 
 
 ## Features
--   [x] Supergroup Chats
--   [x] Private Chats.
--   [x] Real-Time Updating
+  [x] Supergroup Chats
+  [x] Private Chats.
+  [x] Real-Time Updating
 
 ### Credits:
 
-- [Jaindu Charindith](https://github.com/jaindu)
-- [Uvindu Bro Co](https://github.com/UvinduBroCo)
+  [Jaindu Charindith](https://github.com/jaindu)
+  [Uvindu Bro Co](https://github.com/UvinduBroCo)
 
 ### Developers:
 
--  [@UvinduBro](https://t.me/Uvindu_Bro)
+  [@UvinduBro](https://t.me/Uvindu_Bro)
 
