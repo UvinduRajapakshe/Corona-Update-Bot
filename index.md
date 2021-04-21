@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Telegram Corona Update Bot 🦠
 
-You can use the [editor on GitHub](https://github.com/UvinduBro/Corona-Update-Bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## A Simple Bot to get Corona Virus updates via Telegram platform.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
 
-### Markdown
+* Fork this Repo.😎
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* The Go to the CoronaBot.py & Edit these 👉
+                       ```APP_ID``` , ```APP_HASH``` , ```BOTT```
+                       
+* After that click the Heroku Deploy Button & Deploy it 😋
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Deploy to Heroku 🏃‍♂
 
-- Bulleted
-- List
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UvinduBro/Corona-Update-Bot)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Features
+-   [x] Supergroup Chats
+-   [x] Private Chats.
+-   [x] Real-Time Updating
 
-[Link](url) and ![Image](src)
-```
+### Credits:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [Jaindu Charindith](https://github.com/jaindu)
+- [Uvindu Bro Co](https://github.com/UvinduBroCo)
 
-### Jekyll Themes
+### Developers:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UvinduBro/Corona-Update-Bot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+-  [@UvinduBro](https://t.me/Uvindu_Bro)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
