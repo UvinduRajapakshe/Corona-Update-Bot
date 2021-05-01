@@ -4,15 +4,13 @@ import requests
 
 APP_ID=3964155 #my.telegram.org
 APP_HASH='95136f46ae1425c4272596ce27543e99' #my.telegram.org
-BOTT='1714819758:AAFW-z6sql_s6iT4nTn5WqJhf_TC1WsCB-A'#@botfather
+BOTT=''#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
 
 
 def staat(qq):
-  stic='CAACAgIAAxkBAAIRamB_lnSZ-12BawIiPbtcysJPjHzKAALOAQACVp29Cq2jmuzmnvpMHwQ'
-  requests.get('api.telegram.org/bot'+BOTT+'/sendSticker?chat_id='+str(qq)+'&sticker='+stic)
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
