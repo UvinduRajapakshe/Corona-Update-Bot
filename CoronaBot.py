@@ -6,7 +6,7 @@ APP_ID='6914958'
 APP_HASH='67a74766ba6d9183d57a9dd51b85a8f3'
 BOTT='1917032694:AAHpzNHosq_l65xxuKNfPUS6AfmHHWJzk30'
 
-bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
+bot = TelegramClient('bot', 6914958, 67a74766ba6d9183d57a9dd51b85a8f3).start(bot_token=1917032694:AAHpzNHosq_l65xxuKNfPUS6AfmHHWJzk30)
 
 
 
