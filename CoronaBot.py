@@ -2,9 +2,9 @@ from telethon import TelegramClient, events
 import json
 import requests
 
-APP_ID=3964155 #my.telegram.org
-APP_HASH='95136f46ae1425c4272596ce27543e99' #my.telegram.org
-BOTT=''#@botfather
+APP_ID='6914958'
+APP_HASH='67a74766ba6d9183d57a9dd51b85a8f3'
+BOTT='1917032694:AAHpzNHosq_l65xxuKNfPUS6AfmHHWJzk30'
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
@@ -15,18 +15,18 @@ def staat(qq):
   data = {
     "chat_id": str(qq),
     "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @Uvindu_Bro 🇱🇰 | @charindith ",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @sl_corona_update_bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @Uvindu_Bro 🇱🇰 | @charindith ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
             [
                 {
                     "text": "➕ Add me to your Group",
-                    "url": "https://t.me/SLCovid19Bot?startgroup=new"
+                    "url": "https://t.me/sl_movie_info_bot"
                 }, 
                 {
-                    "text": "🔊 Channel",
-                    "url": "https://t.me/UvinduBro"
+                    "text": "🔊 our group",
+                    "url": "https://t.me/SL_MEDIA_TECH_GRUOP"
                 }
             ]
         ]
